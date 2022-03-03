@@ -14,7 +14,7 @@ const Mainnavigation = () => {
             <div className="item-2 flex space-x-8 ml-[650px] ">
 
                 <div className="item-1">
-                    <span className="text-white text-sm">About</span>
+                    <span className=" text-sm text-blue-400">About</span>
                 </div>
                 <div className="item-2">
                     <span className="text-white text-sm">Help</span>
@@ -26,8 +26,8 @@ const Mainnavigation = () => {
                     <span className="text-white text-sm">Signup</span>
                 </div>
             </div>
-            <div className="custom h-12 shadow-md  shadow-black border border-gray-900 justify-center  flex space-x-4 ml-8 items-center  rounded-full px-2">
-                <div className="item-1 text-sm">Request Demo</div>
+            <div className="custom h-12 shadow-md   shadow-black border border-gray-900 justify-center space-x-2 flex hover:space-x-4 ml-8 items-center  rounded-full px-3">
+                <div className="item-1 text-sm text-blue-400">Request Demo</div>
                 <div className="item-2 text-blue-800 text-2xl hover:font-extrabold ">&rarr;</div>
             </div>
         </div>

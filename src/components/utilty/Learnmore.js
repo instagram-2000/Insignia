@@ -4,8 +4,8 @@ const Learnmore = () => {
     return (
         <div className='flex flex-row mx-auto w-[950px] h-[430px]  mt-[100px]'>
             <div className="flex flex-col  h-500px w-[500px]">
-                <span className="text-6xl flex flex-wrap    font-bold text-green-200 mt-8 pl-8"> Save your data  </span>
-                <span className="text-6xl flex flex-wrap    font-bold text-green-200 pl-8">  storage here. </span>
+                <span className="text-6xl flex flex-wrap font-bold text-blue-400 mt-8 pl-8"> Save your data  </span>
+                <span className="text-6xl flex flex-wrap font-bold text-blue-400 pl-8">  storage here. </span>
                 <div className="flex flex-col mt-8">
                 <span className="text-sm text-white pl-8">Insignia is a data storage area that has been tested for </span>
                 <span className="text-sm text-white pl-8"> security ,so you can store your data here safely but not be </span>
