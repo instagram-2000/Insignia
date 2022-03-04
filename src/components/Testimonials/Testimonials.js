@@ -11,7 +11,7 @@ const Testimonials = () => {
                 <span className='font-bold text-3xl text-blue-300 '>Testimonials</span>
             </div>
             <div className="flex flex-row  static">
-                <div className=" shadow-2xl  shadow-black rounded-3xl bg-black w-[500px] h-[230px] mt-12 ml-16 flex flex-row pt-8" >
+                <div className=" shadow-2xl hover:shadow-red-900  shadow-black rounded-3xl bg-black w-[500px] h-[230px] mt-12 ml-16 flex flex-row pt-8" >
                     <div className="image  ml-16">
                         <img src={men} alt="Image here" className='h-112 w-28 '></img>
                     </div>
@@ -32,7 +32,7 @@ const Testimonials = () => {
                     </div>
                 </div>
 
-                <div className="absolute right-0 shadow-2xl  shadow-black rounded-3xl bg-black w-[500px] h-[230px] mt-12 ml-16 flex flex-row pt-8" >
+                <div className="absolute right-0 shadow-2xl hover:shadow-red-900  shadow-black rounded-3xl bg-black w-[500px] h-[230px] mt-12 ml-16 flex flex-row pt-8" >
                     <div className="image  ml-16">
                         <img src={women} alt="Image here" className='h-112 w-28 '></img>
                     </div>

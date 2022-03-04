@@ -10,7 +10,7 @@ const Securitysection = () => {
                 <span className='font-bold text-3xl text-blue-300 '>Features</span>
             </div>
             <div className="flex flex-row  static">
-                <div className=" shadow-xl  shadow-black rounded-3xl bg-black w-[300px] h-[450px] mt-16 ml-16 flex flex-col pt-8" >
+                <div className=" shadow-xl  shadow-black rounded-3xl hover:shadow-red-900  bg-black w-[300px] h-[450px] mt-16 ml-16 flex flex-col pt-8" >
                     <div className="image  mx-auto">
                         <img src={notepad} alt="Image here" className='h-40 w-40 '></img>
                     </div>
@@ -21,7 +21,7 @@ const Securitysection = () => {
                             <div className="item-2 text-blue-800 text-2xl ">&rarr;</div></span>
                     </div>
                 </div>
-                <div className=" shadow-xl shadow-black rounded-3xl bg-black w-[300px] h-[450px] mt-16 ml-24 flex flex-col pt-8" >
+                <div className=" shadow-xl shadow-black rounded-3xl  hover:shadow-red-900 bg-black w-[300px] h-[450px] mt-16 ml-24 flex flex-col pt-8" >
                     <div className="image  mx-auto">
                         <img src={printer} alt="Image here" className='h-40 w-40 '></img>
                     </div>
@@ -32,7 +32,7 @@ const Securitysection = () => {
                             <div className="item-2 text-blue-800 text-2xl ">&rarr;</div></span>
                     </div>
                 </div>
-                <div className=" shadow-xl absolute right-0 shadow-black rounded-l-3xl bg-black w-[270px] h-[450px] mt-16 ml-16 flex flex-col pt-8" >
+                <div className=" shadow-xl absolute right-0 shadow-black rounded-l-3xl hover:shadow-red-900 bg-black w-[270px] h-[450px] mt-16 ml-16 flex flex-col pt-8" >
                     <div className="image  mx-auto">
                         <img src={shield} alt="Image here" className='h-40 w-40 '></img>
                     </div>

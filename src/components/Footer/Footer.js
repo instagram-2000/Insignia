@@ -3,6 +3,7 @@ import Logo from './logo.png'
 import fb from './fb.png'
 import insta from './insta.png'
 import twitter from './twitter.png'
+import msg from './msg.png'
 const Footer = () => {
     return (
         <>
@@ -14,7 +15,7 @@ const Footer = () => {
                 <div className="buttons w-[500px] flex justify-center items-center ">
                     <div className="rounded-full w-[380px] bg-gray-800 h-[55px] flex justify-center items-center shadow-inner border-1 border-black shadow-black">
                         <input type="text" placeholder='enter Your email address here' className='bg-gray-800 ml-2' />
-                        <span className=' w-20 h-8 shadow-lg  shadow-black bg-gray-900 text-white rounded-full ml-16 flex justify-center items-center'>Join us</span>
+                        <span className=' w-20 h-8 shadow-lg hover:shadow-white hover:border hover:border-blue-900 cursor-pointer shadow-black bg-gray-900 text-white rounded-full ml-16 flex justify-center items-center'>Join us</span>
                     </div>
                 </div>
 
@@ -41,7 +42,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="w-[1000px] mx-auto h-[500px] flex flex-row">
+            <div className="w-[1000px] mx-auto h-[300px] flex flex-row">
                 <div className="address w-[340px]  pt-16 pl-8">
                     <div className="itme-1 flex items-center space-x-1">
                         <div className="item-1 ">
@@ -83,16 +84,24 @@ const Footer = () => {
                 <div className="socialmedia w-[300px]  pt-16">
                     <span className="text-sm text-blue-300  ml-8"> Social media</span>
                     <div className="flex flex-row space-x-4 ml-8 mt-8">
-                        <div className="bg-black rounded-full h-12 w-12 flex justify-center items-center border border-black shadow-inner shadow-white ">
-                            <img src={fb} alt='Image here '  className='rounded-full h-8 w-8'></img>
+                        <div className="hover:border hover:border-blue-900 cursor-pointer rounded-full h-12 w-12 flex justify-center items-center  shadow-inner border-1 border-black shadow-black ">
+                            <img src={fb} alt='Image here ' className='rounded-full h-6 w-6'></img>
                         </div>
-                        <div className="bg-black rounded-full h-12 w-12 flex justify-center items-center border border-black shadow-inner shadow-white ">
-                            <img src={insta} alt='Image here '  className='rounded-full h-8 w-8'></img>
+                        <div className="hover:border hover:border-blue-900 cursor-pointer rounded-full h-12 w-12 flex justify-center items-center  shadow-inner border-1 border-black shadow-black ">
+                            <img src={insta} alt='Image here ' className='rounded-full h-6 w-6'></img>
                         </div>
-                        <div className="bg-black rounded-full h-12 w-12 flex justify-center items-center border border-black shadow-inner shadow-white ">
-                            <img src={twitter} alt='Image here '  className='rounded-full h-8 w-8'></img>
+                        <div className="hover:border hover:border-blue-900 cursor-pointer rounded-full h-12 w-12 flex justify-center items-center  shadow-inner border-1 border-black shadow-black ">
+                            <img src={twitter} alt='Image here ' className='rounded-full h-6 w-6'></img>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="w-[1000px] mx-auto  flex flex-row items-center pb-40">
+                <div className="copyright ml-8">
+                    <span className="text-xs text-white">@insignia<small>TM</small> ,2022. All rights reservred </span>
+                </div>
+                <div className="ml-[600px] hover:border hover:border-blue-900 cursor-pointer  rounded-full h-8 w-8 flex justify-center items-center shadow-inner border-1 border-black shadow-black ">
+                    <img src={msg} alt='Image here ' className='invert rounded-full h-4 w-4'></img>
                 </div>
             </div>
         </>
