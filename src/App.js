@@ -9,7 +9,7 @@ import Securitysection from "./components/utilty/Securitysection";
 function App() {
   return (
     <>
-      <div className="md:bg-gray-900 md:h-auto pt-[60px]">
+      <div className="bg-gray-900  h-full w-screen md:h-auto pt-[20px] md:pt-[60px] overflow-hidden">
 
         {/*Adding navigation through components*/}
         <Mainnavigation />

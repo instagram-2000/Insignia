@@ -3,18 +3,18 @@ import Diagram from './securityimage.png'
 import './css.css'
 const Securitysection = () => {
     return (
-        <div className='shadow-inner shadow-gray-900 border-4 border-gray-900 rounded-[50px]  flex bg-gray-800 flex-row mx-auto w-[950px] h-[430px]  mt-[80px]  mb-8 '>
-            <div className="image  w-[380px] ">
-                <img src={Diagram} alt='image here ' className='mt-24 ml-16 h-[250px]' ></img>
+        <div className='shadow-inner shadow-gray-900 border-8 md:border-4 border-gray-900 rounded-[50px]  flex bg-gray-800 flex-col md:flex-row mx-auto w-screen md:w-[950px] h-auto md:h-[430px]  md: mt-[80px]  mb-8 py-8 '>
+            <div className="  md:w-[380px] w-auto">
+                <img src={Diagram} alt='image here ' className='mt-8 md:mt-24 mx-auto  h-[165px] md:h-[250px]' ></img>
             </div>
-            <div className="w-[450px]">
-                <div className="flex flex-col space-y-1 mt-24">
-                    <span className="text-3xl text-blue-400 font-bold ml-16 "> We are a high-level </span>
-                    <span className="text-3xl text-blue-400 font-bold ml-16 "> Data storage bank </span>
+            <div className="md:w-[450px]">
+                <div className="flex flex-col space-y-1 md:mt-24 mt-6">
+                    <span className="text-xl md:text-3xl text-blue-400 font-bold ml-6 md:ml-16 "> We are a high-level </span>
+                    <span className="text-xl md:text-3xl text-blue-400 font-bold ml-6 md:ml-16 "> Data storage bank </span>
                 </div>
-                <div className="flex flex-col text-white  ml-16 mt-8 ">
-                    <span>The place to store various data that you can access at any time through the internet and where you cna carry it.</span>
-                    <span>This very flexible storage area has a high level of security . To enter into your own data you must enter the password that you created when you regeister in this data Warehouse.</span>
+                <div className="flex flex-col text-xs text-white  px-2 md:ml-16 mt-6 w-screen md:w-auto">
+                    <span className="mx-4">The place to store various data that you can access at any time through the internet and where you cna carry it.</span>
+                    <span className="mx-4">This very flexible storage area has a high level of security . To enter into your own data you must enter the password that you created when you regeister in this data Warehouse.</span>
                 </div>
 
             </div>
