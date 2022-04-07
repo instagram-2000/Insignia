@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className="item-1 md:text-sm text-white">Learn more</div>
 
                     </div>
-                    <div className="custom md:h-12 h-10  shadow-lg  cursor-pointer shadow-black border border-gray-900 justify-center space-x-2 flex hover:space-x-4  items-center  rounded-full px-3  ">
+                    <div className="custom md:h-12 h-10  shadow-lg  cursor-pointer shadow-black border md:border-gray-900 justify-center space-x-2 flex hover:space-x-4  items-center  rounded-full px-3 border-blue-400 ">
                         <div className="item-1 text-sm text-blue-400">Request Demo</div>
                         <div className="item-2 text-blue-800 text-2xl hover:font-extrabold ">&rarr;</div>
                     </div>

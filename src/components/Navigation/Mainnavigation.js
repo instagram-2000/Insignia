@@ -7,8 +7,8 @@ const Mainnavigation = () => {
 
             <div className="itme-1 flex items-center space-x-1">
                 <div className="item-1 ml-2">
-                    <img src={Logo} className='w-[35px] h-[35px]' alt="logo here"></img></div>
-                <div className="item-2 text-lg font-semibold">Insignia</div>
+                    <img src={Logo} className='md:w-[35px] md:h-[35px] h-[30px] w-[30px]' alt="logo here"></img></div>
+                <div className="item-2 text-xl font-semibold ">Insignia</div>
 
             </div>
             <div className='flex items-center space-x-2 justify-center '>

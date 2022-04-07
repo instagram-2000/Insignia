@@ -22,7 +22,7 @@ const Testimonials = () => {
                         <span className="text-blue-300 text-xl font-bold mx-8">John Fang</span>
                         <div className="flex flex-row items-center">
                             <span className="text-blue-500 text-xs font-bold mx-8 ">Web developer</span>
-                            <div className="flex flex-row space-x-1">
+                            <div className="flex flex-row space-x-1 animate-pulse">
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
@@ -43,6 +43,7 @@ const Testimonials = () => {
 
 
                 <div className="md:absolute md:right-0 shadow-2xl hover:shadow-red-900  shadow-black rounded-3xl bg-black md:w-[500px] md:h-[230px] mt-6 md:mt-12 md:ml-16 flex flex-row pt-8 mr-8 md:mr-0" >
+                    
                     <div className="image  ml-6 md:ml-16">
                         <img src={women} alt="Image here" className='h-112 w-28 '></img>
                     </div>
@@ -50,7 +51,7 @@ const Testimonials = () => {
                         <span className="text-blue-300 text-xl font-bold mx-8">Jonney Doe</span>
                         <div className="flex flex-row items-center">
                             <span className="text-blue-500 text-xs font-bold mx-8 ">UX Designer</span>
-                            <div className="flex flex-row space-x-1">
+                            <div className="flex flex-row space-x-1 animate-pulse">
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
                                 <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
@@ -66,7 +67,7 @@ const Testimonials = () => {
             </div>
 
             <div className="buttons flex flex-row md:mt-8 mt-4 md:mb-8 mb-4 items-center justify-between">
-                <div className=" w-[500px] text-white ml-6 md:ml-12">
+                <div className=" w-[500px] text-white ml-6 md:ml-12 ">
                     <span className='text-2xl font-extrabold '> . </span>
                     <span className='text-2xl font-bold'> . </span>
                     <span className='text-2xl font-bold'> . </span>

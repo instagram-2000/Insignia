@@ -14,7 +14,7 @@ const Learnmore = () => {
 
 
 
-                <div className=" md:h-12 h-10 shadow-md  shadow-black border cursor-pointer border-gray-900 justify-center  flex   items-center  rounded-full mt-6 md:mt-12 w-[120px] md:w-[200px] ml-6 hover:border-blue-900 hover:border-2">
+                <div className=" md:h-12 h-10 shadow-md  shadow-black border cursor-pointer md:border-gray-900 justify-center  flex   items-center  rounded-full mt-6 md:mt-12 w-[120px] md:w-[200px] ml-6 hover:border-blue-900 hover:border-2 border-blue-900">
                     <div className="item-1 text-sm font-bold text-white">Learn More</div>
 
                 </div>
