@@ -10,14 +10,16 @@ const Securitysection = () => {
                 <span className='font-bold text-3xl text-blue-300 '>Features</span>
             </div>
             <div className="flex md:flex-row  overflow-auto space-x-8 md:space-x-16 w-[550px] md:w-auto ">
+               
+               
                 <div className=" shadow-xl   rounded-3xl hover:shadow-red-900  bg-black w-[170px]  md:w-[300px] md:h-[450px] mt-16 md:ml-16 flex flex-col pt-8 " >
                     <div className="image  mx-auto">
                         <img src={notepad} alt="Image here" className='md:h-40 md:w-40 h-20 w-20 '></img>
                     </div>
-                    <div className="flex flex-col ">
-                        <span className="text-blue-300 text-md  md:text-xl mx-6 md:mx-8">Search Data</span>
-                        <span className="text-white text-xs mx-2 md:mx-8 md:mt-8 mt-2 ">Dont worry if your data is very large , insignia provides a search engine, which is useful for making it easier to find data effectivery saving time.</span>
-                        <span className="text-white text-sm mx-2 ml-4 md:ml-8 flex flex-row items-center mt-3 md:mt-12"> Learn more
+                    <div className="flex flex-col  ">
+                        <span className="text-blue-300 text-md mx-auto md:text-xl  md:mx-8">Search Data</span>
+                        <span className="text-white text-xs mx-3 md:mx-8 md:mt-8 mt-2 ">Dont worry if your data is very large , insignia provides a search engine, which is useful for making it easier to find data effectivery saving time.</span>
+                        <span className="text-white text-sm mx-2 ml-4 md:ml-8 flex flex-row items-center mt-3 justify-center md:mt-12"> Learn more
                             <div className="item-2 text-blue-800 text-2xl ml-2">&rarr;</div></span>
                     </div>
                 </div>
@@ -27,10 +29,10 @@ const Securitysection = () => {
                     <div className="image  mx-auto">
                         <img src={printer} alt="Image here" className='md:h-40 md:w-40 h-20 w-20 '></img>
                     </div>
-                    <div className="flex flex-col ">
-                        <span className="text-blue-300 text-md  md:text-xl mx-6 md:mx-8">Print out</span>
-                        <span className="text-white text-xs mx-2 md:mx-8 md:mt-8 mt-2 ">Print out serviece gives you convienience if somebody you need print data , just edit it all and just print it.</span>
-                        <span className="text-white text-sm mx-2 ml-4 md:ml-8 flex flex-row items-center mt-3 md:mt-12"> Learn more
+                    <div className="flex flex-col justify-between">
+                        <span className="text-blue-300 text-md  md:text-xl mx-auto md:mx-8">Print out</span>
+                        <span className="text-white text-xs mx-3 md:mx-8 md:mt-8 mt-2 ">Print out serviece gives you convienience if somebody you need print data , just edit it all and just print it.</span>
+                        <span className="text-white text-sm mx-2 ml-4 md:ml-8 flex flex-row items-center mt-10 justify-center md:mt-12"> Learn more
                             <div className="item-2 text-blue-800 text-2xl ml-2">&rarr;</div></span>
                     </div>
                 </div>

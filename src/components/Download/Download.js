@@ -18,7 +18,7 @@ const Download = () => {
                 md:top-[1950px] h-[230px] mt-4 md:mt-0'></img>
                 <div className='flex flex-col itmes-center  md:hidden '>
                     <span className="text-2xl font-bold text-blue-400  mt-16"> Download Our App </span>
-                    <div className="custom h-10 shadow-lg  shadow-black  justify-center  flex   items-center  rounded-full  w-[100px] md:w-[200px] mt-6 hover:border-green-900 hover:border-2 border-blue-900 border-2">
+                    <div className="hover:animate-bounce cursor-pointer  h-10 shadow-lg  shadow-black  justify-center  flex   items-center  rounded-full  w-[100px] md:w-[200px] mt-6 hover:border-green-900 hover:border-2 border-blue-900 border-2">
                         <div className="item-1 text-sm font-bold text-white">Download </div>
 
                     </div>

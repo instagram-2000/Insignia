@@ -15,6 +15,7 @@ const Testimonials = () => {
 
 
                 <div className=" shadow-2xl hover:shadow-red-900  shadow-black rounded-3xl bg-black md:w-[500px] md:h-[230px] mt-6 md:mt-12 md:ml-16 flex flex-row pt-8 mr-8" >
+              
                     <div className="image ml-6 md:ml-16">
                         <img src={men} alt="Image here" className='h-112 w-28 '></img>
                     </div>
@@ -23,11 +24,11 @@ const Testimonials = () => {
                         <div className="flex flex-row items-center">
                             <span className="text-blue-500 text-xs font-bold mx-8 ">Web developer</span>
                             <div className="flex flex-row space-x-1 animate-pulse">
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dotdark} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dotdark} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
                             </div>
                         </div>
                         <span className="text-white text-sm md:ml-8 md:mr-16 mb-4 md:mb-0 mr-4  mt-8">Suspendise ultrices at diam lectus nullam. nisl, sagitlis vieverra enim erat lartor ultrices massa turpis. Arcu Pulvinar aenean nam laoreet nulla.</span>
@@ -52,11 +53,11 @@ const Testimonials = () => {
                         <div className="flex flex-row items-center">
                             <span className="text-blue-500 text-xs font-bold mx-8 ">UX Designer</span>
                             <div className="flex flex-row space-x-1 animate-pulse">
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
-                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 '></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
+                                <img src={dot} alt="Image here" className='md:h-4 md:w-4 h-2 w-2 rounded-full'></img>
                             </div>
                         </div>
                         <span className="text-white text-sm md:ml-8 md:mr-16 mb-4 md:mb-0 mr-4  mt-8">Suspendise ultrices at diam lectus nullam. nisl, sagitlis vieverra enim erat lartor ultrices massa turpis. Arcu Pulvinar aenean nam laoreet nulla.</span>
