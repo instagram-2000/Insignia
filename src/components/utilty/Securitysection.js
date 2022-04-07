@@ -12,9 +12,9 @@ const Securitysection = () => {
                     <span className="text-xl md:text-3xl text-blue-400 font-bold ml-6 md:ml-16 "> We are a high-level </span>
                     <span className="text-xl md:text-3xl text-blue-400 font-bold ml-6 md:ml-16 "> Data storage bank </span>
                 </div>
-                <div className="flex flex-col text-xs text-white  px-2 md:ml-16 mt-6 w-screen md:w-auto">
-                    <span className="mx-4">The place to store various data that you can access at any time through the internet and where you cna carry it.</span>
-                    <span className="mx-4">This very flexible storage area has a high level of security . To enter into your own data you must enter the password that you created when you regeister in this data Warehouse.</span>
+                <div className="flex flex-col text-xs md:text-base text-white  px-2 md:ml-16 mt-6 w-screen md:w-auto">
+                    <span className="mx-4 md:mx-0">The place to store various data that you can access at any time through the internet and where you cna carry it.</span>
+                    <span className="mx-4 md:mx-0">This very flexible storage area has a high level of security . To enter into your own data you must enter the password that you created when you regeister in this data Warehouse.</span>
                 </div>
 
             </div>

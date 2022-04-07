@@ -7,7 +7,7 @@ import msg from './msg.png'
 const Footer = () => {
     return (
         <>
-            <div className=' w-screen md:w-full h-1 shadow-inner shadow-gray-800 mt-8 '></div>
+            <div className=' w-screen md:w-full h-1 shadow-inner shadow-gray-800 mt-8 md:hidden '></div>
             <div className='flex flex-col md:flex-row  w-screen md:w-[950px]  mx-auto h-auto md:h-[100px] pt-4 bg-green-900 md:bg-gray-900 pb-8 md:pb-0'>
                 <div className="flex flex-col md:w-[450px] ">
                     <div className="font-bold text-2xl md:text-3xl text-blue-300 ml-4 md:ml-0">Subscribe !</div>
@@ -51,8 +51,8 @@ const Footer = () => {
 
 
 
-            <div className=' w-screen md:w-full h-1 shadow-inner shadow-gray-800 md:mt-8'></div>
-            <div className="w-screen md:w-[1000px] mx-auto  m:h-[300px] flex flex-col md:flex-row ">
+            <div className=' w-screen md:w-full h-1 shadow-inner shadow-gray-800 md:mt-8 md:hidden'></div>
+            <div className="w-screen md:w-[1000px] mx-auto  m:h-[300px] flex flex-col md:flex-row md:items-center ">
                 <div className="address md:w-[340px] pt-8  md:pt-16 pl-8 flex md:flex-col">
                     <div>
                         <div className="itme-1 flex items-center space-x-1">
