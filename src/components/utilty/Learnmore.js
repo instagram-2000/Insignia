@@ -19,8 +19,8 @@ const Learnmore = () => {
 
                 </div>
             </div>
-            <div className=" md:w-[500px] ">
-                <img src={Diagram} alt='image here ' className='mx-auto md:ml-[110px] h-[250px] md:h-[350px]' ></img>
+            <div className=" max-w-[500px] ">
+                <img src={Diagram} alt='image here ' className='mx-auto md:ml-[110px] h-[200px] max-h-[350px]' ></img>
             </div>
         </div>
     )
