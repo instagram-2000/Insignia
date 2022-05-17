@@ -1,10 +1,12 @@
 import React from 'react'
 import Diagram from './diagram.png'
+import { motion } from 'framer-motion';
 const Learnmore = () => {
     return (
         <div className='flex md:flex-row mt-8 flex-col-reverse  mx-auto w-auto md:w-[950px] md:h-[430px] h-auto md:mt-[100px] '>
             <div className="flex flex-col  md:h-[500px] md:w-[500px]">
-                <span className=" text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 mt-8 pl-8"> Save your data  </span>
+                <span className=" text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 mt-8 pl-8">
+                    <motion.h2 initial={{y:-200}} animate={{ y:0}}> Save your data </motion.h2>  </span>
                 <span className="text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 pl-8 animate-pulse">  storage here. </span>
                 <div className="flex flex-col mt-8">
                 <span className="text-xs md:text-sm text-white pl-8">Insignia is a data storage area that has been tested for </span>

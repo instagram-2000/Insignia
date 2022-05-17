@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './logo.png'
 import './Mainnavigation'
+
 const Mainnavigation = () => {
     return (
         <div className='md:w-[1200px] w-auto h-[45px] px-2 md:px-0 flex justify-between  items-center mx-auto text-white '>
@@ -8,7 +9,7 @@ const Mainnavigation = () => {
             <div className="itme-1 flex items-center space-x-1">
                 <div className="item-1 ml-2">
                     <img src={Logo} className='md:w-[35px] md:h-[35px] h-[30px] w-[30px] animate-spin' alt="logo here"></img></div>
-                <div className="item-2 text-xl font-semibold ">Insignia</div>
+                <div className="item-2 text-xl font-semibold " >Insignia</div>
 
             </div>
             <div className='flex items-center space-x-2 justify-center '>
