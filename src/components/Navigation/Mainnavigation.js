@@ -1,10 +1,10 @@
 import React from 'react'
 import Logo from './logo.png'
 import './Mainnavigation'
-
+import {motion} from 'framer-motion';
 const Mainnavigation = () => {
     return (
-        <div className='md:w-[1200px] w-auto h-[45px] px-2 md:px-0 flex justify-between  items-center mx-auto text-white '>
+        <motion.div initial={{}} animate={{ }} transition={{}} className='md:w-[1200px] w-auto h-[45px] px-2 md:px-0 flex justify-between  items-center mx-auto text-white '>
 
             <div className="itme-1 flex items-center space-x-1">
                 <div className="item-1 ml-2">
@@ -50,7 +50,7 @@ const Mainnavigation = () => {
                     <div className="item-2 text-blue-800 text-2xl hover:font-extrabold ">&rarr;</div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
