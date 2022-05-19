@@ -4,7 +4,9 @@ import './css.css'
 import {motion } from 'framer-motion';
 const Securitysection = () => {
     return (
-        <motion.div  className='shadow-inner shadow-gray-900 md:border-4 py-auto border-8 border-gray-900 rounded-[50px]  flex bg-gray-800 flex-col md:flex-row mx-auto w-screen md:w-[950px] h-auto md:h-[430px]  md: mt-[80px]  mb-8 py-8 '>
+        <motion.div initial="hidden"
+        whileInView="visible"
+        transition={{delay:1}} className='shadow-inner shadow-gray-900 md:border-4 py-auto border-8 border-gray-900 rounded-[50px]  flex bg-gray-800 flex-col md:flex-row mx-auto w-screen md:w-[950px] h-auto md:h-[430px]  md: mt-[80px]  mb-8 py-8 '>
             <div className="  md:w-[380px] w-auto">
                 <img src={Diagram} alt='image here ' className='mt-8 md:mt-24 mx-auto  h-[165px] md:h-[250px]' ></img>
             </div>

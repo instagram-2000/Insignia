@@ -3,11 +3,11 @@ import Diagram from './diagram.png'
 import { motion } from 'framer-motion';
 const Learnmore = () => {
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}} className='flex md:flex-row mt-8 flex-col-reverse  mx-auto w-auto md:w-[950px] md:h-[430px] h-auto md:mt-[100px] '>
+        <motion.div  initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}} className='flex md:flex-row mt-8 flex-col-reverse  mx-auto w-auto md:w-[950px] md:h-[430px] h-auto md:mt-[100px] '>
             <div className="flex flex-col  md:h-[500px] md:w-[500px]">
                 <span className=" text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 mt-8 pl-8">
                     <motion.h2 initial={{y:-200}} animate={{ y:0}} drag> Save your data </motion.h2>  </span>
-                <span className="text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 pl-8 animate-pulse">  <motion.h2 initial={{y:-600}} animate={{ y:0}} transition={{duration:0.7,type:'spring',stiffness:500}}> Storage Here. </motion.h2> </span>
+                <span className="text-xl  md:text-6xl flex flex-wrap font-bold text-blue-400 pl-8 animate-pulse">  <motion.h2 initial={{y:600}} animate={{ y:0}} transition={{duration:0.7,type:'spring',stiffness:500}}> Storage Here. </motion.h2> </span>
                 <div className="flex flex-col mt-8">
                 <span className="text-xs md:text-sm text-white pl-8">Insignia is a data storage area that has been tested for </span>
                 <span className="text-xs md:text-sm text-white pl-8"> security ,so you can store your data here safely but not be </span>
@@ -21,8 +21,8 @@ const Learnmore = () => {
 
                 </div>
             </div>
-            <motion.div whileHover={{y:150,scale:2}} transition={{duration:1}} className=" max-w-[700px] ">
-                <img src={Diagram} alt='image here ' className='mx-auto md:ml-[110px] h-[200px] max-h-[350px]' ></img>
+            <motion.div whileTap={{ scale: 1.3 }} drag dragConstraints={{left:0,right:0,top:0,bottom:0}}  transition={{duration:3}} className=" max-w-[700px] ">
+                <img src={Diagram} alt='image here ' className='mx-auto md:ml-[110px] h-[200px] md:h-[350px]' ></img>
             </motion.div>
         </motion.div>
     )
