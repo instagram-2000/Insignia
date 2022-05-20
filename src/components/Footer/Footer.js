@@ -6,7 +6,7 @@ import twitter from './twitter.png'
 import msg from './msg.png'
 const Footer = () => {
     return (
-        <>
+        <div classname="md:max-w-screen mx-auto">
            
             <div className='flex flex-col md:flex-row px-4 w-screen md:w-[950px]  mx-auto h-auto md:h-[100px] pt-4 bg-green-900 md:bg-gray-900 pb-8 md:pb-0'>
                 <div className="flex flex-col md:w-[450px] ">
@@ -124,7 +124,7 @@ const Footer = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
 

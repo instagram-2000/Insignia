@@ -9,8 +9,8 @@ import Securitysection from "./utilty/Securitysection";
 
 const Homepage = () => {
   return (
-    <div className="bg-gray-900  h-full max-w-[1800px] md:h-auto pt-[20px] md:pt-[60px] overflow-hidden">
-
+    <div className="bg-gray-900  h-full md:max-w-screen mx-auto md:h-auto pt-[20px] md:pt-[60px] overflow-hidden">
+       
         {/*Adding navigation through components*/}
         <Mainnavigation />
 

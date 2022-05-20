@@ -28,7 +28,7 @@ const Mainnavigation = () => {
     
       
       
-      className="md:w-[1200px] w-auto h-[45px] px-2 md:px-0 flex justify-between  items-center mx-auto text-white "
+      className="md:max-w-[1400px]  w-auto h-[45px] px-2 md:px-0 flex justify-between  items-center mx-auto text-white "
     >
       <motion.div variants={menu1}
       initial="initi"
